@@ -1,0 +1,89 @@
+.page {
+    background: linear-gradient(180deg, #e6f7ff 0%, #f0f9ff 100%);
+    min-height: 100vh;
+    color: #333;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.title {
+    color: #0066cc;
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 2rem;
+    font-weight: 600;
+}
+
+.card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.1);
+    border: 1px solid #cce7ff;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.label {
+    color: #0066cc;
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+
+.input {
+    padding: 0.8rem;
+    border: 1px solid #cce7ff;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #0066cc;
+}
+
+.textarea {
+    padding: 0.8rem;
+    border: 1px solid #cce7ff;
+    border-radius: 8px;
+    font-size: 1rem;
+    resize: vertical;
+    min-height: 150px;
+    transition: border-color 0.3s;
+}
+
+.textarea:focus {
+    outline: none;
+    border-color: #0066cc;
+}
+
+.submit-button {
+    background-color: #0066cc;
+    color: white;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+}
+
+.submit-button:hover {
+    background-color: #0052a3;
+}

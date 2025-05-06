@@ -1,0 +1,97 @@
+
+.page {
+    background: linear-gradient(180deg, #e6f7ff 0%, #f0f9ff 100%);
+    min-height: 100vh;
+    color: #333;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.title {
+    color: #0066cc;
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.subtitle {
+    color: #555;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.posts {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.post {
+    background-color: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 102, 204, 0.1);
+    border: 1px solid #cce7ff;
+}
+.header {
+    margin-bottom: 1rem;
+}
+
+.meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #0066cc;
+    font-weight: 600;
+}
+
+.date {
+    color: #666;
+    font-size: 0.9rem;
+}
+.post-title {
+    color: #0066cc;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.post-weather {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: #555;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+.post-content {
+    margin-bottom: 1.5rem;
+    line-height: 1.8;
+}
+.post-footer {
+    margin-top: 1.5rem;
+}
+
+.post-signature {
+    text-align: right;
+}
+
+.signature-line {
+    border-top: 1px dashed #cce7ff;
+    margin: 0.5rem 0;
+}
+
+.signature-text {
+    color: #666;
+    font-style: italic;
+}
