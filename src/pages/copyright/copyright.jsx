@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './copyright.css';
 
 const CopyRight = () => {
@@ -23,8 +24,8 @@ const CopyRight = () => {
                     
                     <h2>Contact</h2>
                     <p>
-                        For inquiries regarding the use of our content, please contact us through our 
-                        <a href="/contact" className="link"> Contact page</a>.
+                        For inquiries regarding the use of our content, please contact us through our  
+                        <Link to="/contact" className='link'>Contact page</Link>.
                     </p>
                 </div>
             </div>
