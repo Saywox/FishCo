@@ -32,7 +32,7 @@ function App() {
           <Route path="/info" element={<Info />} />
           <Route path="/rules" element={<Rules />} />
           <Route path="/copyright" element={<CopyRight />} />
-          <Route path="/*" element={<NotFound />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         </main>
         <Footer />
