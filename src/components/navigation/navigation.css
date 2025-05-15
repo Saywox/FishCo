@@ -59,19 +59,3 @@
 .nav-links a:hover {
   color: #ffcc00;
 }
-
-@media (max-width: 768px) {
-  .navbar {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .nav-links {
-    flex-direction: column;
-    padding-top: 10px;
-  }
-
-  .nav-links li {
-    margin: 10px 0;
-  }
-}
